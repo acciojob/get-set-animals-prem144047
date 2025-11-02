@@ -12,19 +12,12 @@ class Animal {
 }
 
 class Dog extends Animal {
-	constructor(species) {
-        super(species); // Call the parent constructor
-    }
-
     bark() {
         console.log("woof");
     }
 }
 
 class Cat extends Animal {
-	constructor(species) {
-        super(species); // Call the parent constructor
-    }
 	purr() {
         console.log("purr");
     }
